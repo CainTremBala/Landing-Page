@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Caio Pragana">
+    <title>Cafeteria</title>
+
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-mug-hot" id="nav_logo">   Coffe Cozy</i>
+
+            <ul id="nav_list">
+                <li class="nav_item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contato">Avaliaçoes</a>
+                </li>
+            </ul>
+            <div class="btn_reserve">
+                <button class="btn_default">               
+                    <a href="#reserva">Reserve aqui</a>
+                </button>
+            </div>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#menu">Cardapio</a>
+                </li>
+                <li class="nav_item">
+                    <a href="#contato">Avaliaçoes</a>
+                </li>
+            </ul>
+
+            <button class="btn_default">
+                Reserve aqui
+                <a href="#reserva"></a>
+            </button>
+
+
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="tittle">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Desperte seus sentidos e saboreie a experiência única da nossa cafeteria!
+                     Deixe-se envolver pelo aroma tentador do café fresco, enquanto saboreia nossas 
+                     deliciosas opções de bebidas quentes e frias. A cada visita, uma jornada de sabores e
+                     momentos aconchegantes espera por você.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#menu" class="btn_default">
+                        Ver Cardápio
+                    </a>
+
+                    <a href="tel:+24981298153" target="_blank" id="phone_button">
+                        <button class="btn_default">
+                            <i class="fa-solid fa-phone"></i>
+                            (24) 98129-8153
+                        </button>
+                    </a>
+                </div>
+
+                <div class="social_midia_buttons">
+                    <a href="tel:+24981298153" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.instagram.com/caio_pragana/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://univassouras.edu.br" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+
+            </div>
+
+            <div id="banner">
+
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section_tittle">Cardápio</h2>
+            <h3 class="section_subtittle">Nossas opções especias</h3>
+
+            <div class="ttt">
+                <div id="dishes">
+                    <div class="dish">
+                        <div class="dish_heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/produto1.png" class="dish_image" alt="">
+
+                        <h3 class="dish_tittle">
+                            Nome do Prato
+                        </h3>
+                        <samp class="dish_description">
+                            Descrição do prato, sabor, cheiro, e sentimentos!
+                        </samp>
+
+                        <div class="dish_rate">
+                            <i class="fa-solid fa-star"></i> 
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish_price">
+                            <h4>R$20,00</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="dishes">  
+                    <div class="dish">
+                        <div class="dish_heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/produto1.png" class="dish_image" alt="">
+
+                        <h3 class="dish_tittle">
+                            Nome do Prato
+                        </h3>
+                        <samp class="dish_description">
+                            Descrição do prato, sabor, cheiro, e sentimentos!
+                        </samp>
+
+                        <div class="dish_rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish_price">
+                            <h4>R$20,00</h4>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="dishes">
+                    <div class="dish">
+                        <div class="dish_heart">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+
+                        <img src="src/img/produto1.png" class="dish_image" alt="">
+
+                        <h3 class="dish_tittle">
+                            Nome do Prato
+                        </h3>
+                        <samp class="dish_description">
+                            Descrição do prato, sabor, cheiro, e sentimentos!
+                        </samp>
+
+                        <div class="dish_rate">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(500+)</span>
+                        </div>
+
+                        <div class="dish_price">
+                            <h4>R$20,00</h4>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contato">
+            <img src="src/img/mulher01.png" id="contato_chef" alt="">
+
+            <div id="contato_content">
+                <h2 class="section_tittle">
+                    Depoimentos
+                </h2>
+                <h3 class="section_subtittle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback_avatar" alt="">
+
+                        <div class="feedback_content">
+                            <p>
+                                Fulana de tal
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+    
+                            </p>
+                            <p>
+                                "mt pika essa porra fiquei la bebendo meu cafezinho mo tempao estudando e trabalhando para a faculdade"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/img/avatar.png" class="feedback_avatar" alt="">
+
+                        <div class="feedback_content">
+                            <p>
+                                Fulana de tal
+
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+    
+                            </p>
+                            <p>
+                                "mt pika essa porra fiquei la bebendo meu cafezinho mo tempao estudando e trabalhando para a faculdade"
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bnt_avl">
+                    <a href="https://univassouras.edu.br" target="_blank">
+                        <button class="btn_default">
+                            Ver mais avaliações
+                        </button>
+                    </a>
+                 </div>
+
+
+            </div>
+        </section>
+
+        <section id="reserva">
+            <div class="reservas">
+                <h2 class="section_tittle">
+                    Faça
+                </h2>
+                <h3 class="section_subtittle">
+                    Sua reserva aqui
+                </h3>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:" required>
+                    <textarea name="" id="" placeholder="Mesa perto das janelas..." required></textarea>
+                    <div class="btn_enviar">
+                        <input class="btn_default" type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+            
+                <img src="src/img/reserva001.png" id="img_reserva" alt="">
+
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/img/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Caio Pragana
+            </span>
+
+            <div class="social_midia_buttons">
+                <a href="https://www.google.com/maps/place/Universidade+de+Vassouras/@-22.4096372,-43.6659498,16.75z/data=!4m6!3m5!1s0x9930cf7c22de05:0xc63f64f24c89cbf6!8m2!3d-22.4092606!4d-43.6640226!16s%2Fg%2F121h8312?entry=ttu" target="_blank">
+                    <i class="fa-regular fa-map"></i>
+                </a>
+
+                <a href="tel:+24981298153" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.instagram.com/caio_pragana/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://univassouras.edu.br" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/script/script.js"></script>
+</body>
+</html>
